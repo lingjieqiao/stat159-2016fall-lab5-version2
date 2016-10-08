@@ -1,6 +1,7 @@
 # stat159-2016fall-lab5
 
 a. User A; Lingjie Qiao
+
 b. User B: Minsu Kim
 
 This repository holds the information regarding lab 5. This lab was done by Lingjie Qiao and Minsu Kim. 
