@@ -26,5 +26,11 @@ In order to resolve this conflict, we have to manually merge the file or pull fr
 I got a merge conflict. So, I solved the file by manually merging the conflicting files
 
 ## Task4: Both the users are on different branches
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
+There is a merging conflict as shown above. The reason is User B hasn’t pulled from remote master after User A modified file1.txt on branch task4A
 ## Task 5: Both the users are on different branches w/ conflicts
