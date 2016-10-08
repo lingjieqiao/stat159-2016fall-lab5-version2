@@ -22,8 +22,8 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 The reason why we have this conflict is because user B didn’t pull before modifying and pushing the same file.
 In order to resolve this conflict, we have to manually merge the file or pull from the master before modifying the file.
 
-
 ## Task 3: Working on multiple branches
+I got a merge conflict. So, I solved the file by manually merging the conflicting files
 
 ## Task4: Both the users are on different branches
 
