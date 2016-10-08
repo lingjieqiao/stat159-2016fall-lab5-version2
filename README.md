@@ -33,4 +33,14 @@ hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 There is a merging conflict as shown above. The reason is User B hasn’t pulled from remote master after User A modified file1.txt on branch task4A
+
 ## Task 5: Both the users are on different branches w/ conflicts
+Here user A encountered a merging conflict, with the error message shown in bellow:
+error: failed to push some refs to 'https://github.com/lingjieqiao/stat159-2016fall-lab5-version2.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+The reason there is a conflict is because user B pushes something new to the remote branches, making user A's local repository inconsistent with the remote master. Therefore, we should fix the problem by manually changing the files. 
+
